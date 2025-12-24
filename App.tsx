@@ -829,7 +829,7 @@ export default function App() {
   );
 
   return (
-    <div ref={mountRef} className="relative w-full h-full bg-slate-100 overflow-hidden select-none cursor-none">
+  <div ref={mountRef} className={`relative w-full h-full bg-slate-100 overflow-hidden select-none ${hasStarted ? 'cursor-none' : 'cursor-auto'}`}>
        {!hasStarted && (
          <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-indigo-900 to-black z-[100] flex flex-col items-center justify-center p-8 text-white">
             <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
