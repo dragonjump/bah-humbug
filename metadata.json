@@ -1,0 +1,8 @@
+
+{
+  "name": "Christmas AR Shooter",
+  "description": "A festive gesture-controlled AR shooting game. Form a pistol shape to blast the Flying Santa Grinches and save Christmas!",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
